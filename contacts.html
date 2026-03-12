@@ -1,436 +1,365 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти та філії | ТД Ірбіс</title>
-	
-		<!-- ПІДКЛЮЧЕННЯ CSS -->
-		<link rel="stylesheet" href="style.css">
-		</head>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ПІДКЛЮЧЕННЯ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body>
-<!-- ================= TOPBAR ================= -->
-<div class="topbar">
-    <div class="container topbar-inner">
-        <div class="topbar-left">
-            м. Київ | <a href="tel:+380000000000">+38 (000) 000 00 00</a>
-        </div>
-
-        <div class="topbar-right">
-            <a href="contacts.html" class="topbar-link">Контакти</a>
-            <a href="/b2b" class="b2b-btn">B2B кабінет</a>
-        </div>
-    </div>
-</div>
-
-<!-- ================= HEADER ================= -->
-<header class="header">
-    <div class="container nav">
-
-        <!-- ЛОГО (посилання на головну) -->
-        <a href="index.html" class="logo">IRBIS</a>
-
-        <!-- НАВІГАЦІЯ -->
-        <nav>
-            <ul>
-                <li><a href="services.html" class="active">Послуги</a></li>
-                <li><a href="manufacturing.html">Виробництво</a></li>
-                <li><a href="products.html">Продукція</a></li>
-                <li><a href="brands.html">Бренди</a></li>
-                <li><a href="industries.html">Галузі</a></li>
-                <li><a href="about_us.html">Про компанію</a></li>
-                <li><a href="news.html">Новини</a></li>
-                <li><a href="careers.html">Кар'єра</a></li>
-                <li class="nav-cta"><a href="catalog.html">Каталог</a></li>
-            </ul>
-        </nav>
-
-    </div>
-	
-</header>
-
-<div class="breadcrumbs-wrapper">
-    <div class="container">
-        <nav class="breadcrumbs">
-            <a href="index.html">Головна</a>
-            <span>›</span>
-            <span class="crumb-current">Контакти та Філії</span>
-        </nav>
-    </div>
-</div>
-
-<!-- ================= HERO CONTACTS ================= -->
-<section class="hero hero-contacts">
-    <div class="container hero-content">
-
-        <h1>Контакти та філії ТД «Ірбіс»</h1>
-        <p>
-            Зв’яжіться з нашими фахівцями або знайдіть найближче
-            представництво компанії.
-        </p>
-
-        <div class="hero-cta">
-            <a href="#contact-form" class="btn btn-primary">
-                Зв’язатися з менеджером
-            </a>
-        </div>
-
-    </div>
-</section>
-
-<!-- ================= CONTACTS + BRANCHES ================= -->
-<section class="contacts-main">
-    <div class="container">
-
-        <!-- ===== Центральні контакти ===== -->
-        <div class="contacts-general">
-            <h2>Центральний офіс ТД «Ірбіс»</h2>
-
-            <div class="contacts-grid">
-                <div class="contact-item">
-                    <h4>Адреса</h4>
-                    <p>м. Київ, вул. __________</p>
-                </div>
-
-                <div class="contact-item">
-                    <h4>Телефон</h4>
-                    <p><a href="tel:+380XXXXXXXXX">+38 (0XX) XXX-XX-XX</a></p>
-                </div>
-
-                <div class="contact-item">
-                    <h4>Email</h4>
-                    <p><a href="mailto:info@irbis.ua">info@irbis.ua</a></p>
-                </div>
-
-                <div class="contact-item">
-                    <h4>Графік роботи</h4>
-                    <p>Пн–Пт: 09:00–18:00</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- ===== Пошук ===== -->
-        <div class="branches-controls">
-            <input
-                type="text"
-                placeholder="Пошук філії за містом…"
-                class="branch-search"
-                id="branchSearch"
-            >
-        </div>
-
-        <!-- ===== 2 КОЛОНКИ ===== -->
-        <div class="contacts-columns">
-
-            <!-- ===== ЛІВА КОЛОНКА — ФІЛІЇ ===== -->
-            <div class="contacts-left">
-                <div class="branches-list" id="branchesContainer"></div>
+    <!-- ================= TOPBAR ================= -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div class="topbar-left">
+                м. Київ | <a href="tel:+380000000000">+38 (000) 000 00 00</a>
             </div>
 
-            <!-- ===== ПРАВА КОЛОНКА — КОНТЕНТ ===== -->
-            <div class="contacts-right">
+            <div class="topbar-right">
+                <a href="contacts.html" class="topbar-link">Контакти</a>
+                <a href="/b2b" class="b2b-btn">B2B кабінет</a>
+            </div>
+        </div>
+    </div>
 
-                <!-- ВАРІАНТ: карта -->
-                <div class="contacts-card">
-                    <h3>Наші філії на карті</h3>
-                    <div class="map-placeholder">
-                        Тут буде карта Google Maps
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container nav">
+
+            <!-- ЛОГО (посилання на головну) -->
+            <a href="index.html" class="logo">IRBIS</a>
+
+            <!-- НАВІГАЦІЯ -->
+            <nav>
+                <ul>
+                    <li><a href="services.html" class="active">Послуги</a></li>
+                    <li><a href="manufacturing.html">Виробництво</a></li>
+                    <li><a href="products.html">Продукція</a></li>
+                    <li><a href="brands.html">Бренди</a></li>
+                    <li><a href="industries.html">Галузі</a></li>
+                    <li><a href="about_us.html">Про компанію</a></li>
+                    <li><a href="news.html">Новини</a></li>
+                    <li><a href="careers.html">Кар'єра</a></li>
+                    <li class="nav-cta"><a href="catalog.html">Каталог</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div class="breadcrumbs-wrapper">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="index.html">Головна</a>
+                <span>›</span>
+                <span class="crumb-current">Контакти та Філії</span>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ================= HERO CONTACTS ================= -->
+    <section class="hero hero-contacts">
+        <div class="container hero-content">
+
+            <h1>Контакти та філії ТД «Ірбіс»</h1>
+            <p>
+                Зв’яжіться з нашими фахівцями або знайдіть найближче
+                представництво компанії.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#contact-form" class="btn btn-primary">
+                    Зв’язатися з менеджером
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CONTACTS + BRANCHES ================= -->
+    <section class="contacts-main">
+        <div class="container">
+
+            <!-- ===== Центральні контакти ===== -->
+            <div class="contacts-general">
+                <h2>Центральний офіс ТД «Ірбіс»</h2>
+
+                <div class="contacts-grid">
+                    <div class="contact-item">
+                        <h4>Адреса</h4>
+                        <p>м. Київ, вул. __________</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>Телефон</h4>
+                        <p><a href="tel:+380XXXXXXXXX">+38 (0XX) XXX-XX-XX</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@irbis.ua">info@irbis.ua</a></p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>Графік роботи</h4>
+                        <p>Пн–Пт: 09:00–18:00</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- ВАРІАНТ: швидкий контакт -->
-                <div class="contacts-card">
-                    <h3>Швидкий зв'язок</h3>
-                    <p>Залиште заявку і менеджер зв’яжеться з вами.</p>
-                    <a href="#contact-form" class="btn btn-primary">
-                        Зв’язатися
-                    </a>
+            <!-- ===== Пошук ===== -->
+            <div class="branches-controls">
+                <input type="text" placeholder="Пошук філії за містом…" class="branch-search" id="branchSearch">
+            </div>
+
+            <!-- ===== 2 КОЛОНКИ ===== -->
+            <div class="contacts-columns">
+
+                <!-- ===== ЛІВА КОЛОНКА — ФІЛІЇ ===== -->
+                <div class="contacts-left">
+                    <div class="branches-list" id="branchesContainer"></div>
                 </div>
-				
-				<div class="contacts-text">
-					<h3>Як з нами зв’язатися</h3>
-					<p>
-						Ви можете звернутися до найближчої філії або залишити заявку
-						через форму зворотного зв’язку. Наші менеджери допоможуть
-						з підбором продукції та нададуть технічну консультацію.
-					</p>
 
-					<p>
-						Якщо вам потрібна оперативна допомога — телефонуйте за
-						номером відповідної філії у вашому місті.
-					</p>
-				</div>
+                <!-- ===== ПРАВА КОЛОНКА — КОНТЕНТ ===== -->
+                <div class="contacts-right">
+
+                    <!-- ВАРІАНТ: карта -->
+                    <div class="contacts-card">
+                        <h3>Наші філії на карті</h3>
+                        <div class="map-placeholder">
+                            Тут буде карта Google Maps
+                        </div>
+                    </div>
+
+                    <!-- ВАРІАНТ: швидкий контакт -->
+                    <div class="contacts-card">
+                        <h3>Швидкий зв'язок</h3>
+                        <p>Залиште заявку і менеджер зв’яжеться з вами.</p>
+                        <a href="#contact-form" class="btn btn-primary">
+                            Зв’язатися
+                        </a>
+                    </div>
+
+                    <div class="contacts-text">
+                        <h3>Як з нами зв’язатися</h3>
+                        <p>
+                            Ви можете звернутися до найближчої філії або залишити заявку
+                            через форму зворотного зв’язку. Наші менеджери допоможуть
+                            з підбором продукції та нададуть технічну консультацію.
+                        </p>
+
+                        <p>
+                            Якщо вам потрібна оперативна допомога — телефонуйте за
+                            номером відповідної філії у вашому місті.
+                        </p>
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
-
-    </div>
-</section>
+    </section>
 
 
 
-<!-- ================= СОЦІАЛЬНІ МЕРЕЖІ ================= -->
-<section class="social">
-    <div class="container">
-        <h2>Соціальні мережі</h2>
+    <!-- ================= СОЦІАЛЬНІ МЕРЕЖІ ================= -->
+    <section class="social">
+        <div class="container">
+            <h2>Соціальні мережі</h2>
 
-        <div class="social-icons">
-            <a href="#" class="social-icon">in</a>
-            <a href="#" class="social-icon">f</a>
-            <a href="#" class="social-icon">▶</a>
-        </div>
-
-<div class="youtube-highlight">
-    <div class="youtube-grid">
-
-        <!-- Ліва частина (акцент + кнопка) -->
-        <div class="youtube-left">
-            <h3>Наш YouTube канал</h3>
-            <a href="#" class="youtube-btn">
-                Перейти на YouTube →
-            </a>
-        </div>
-
-        <!-- Права частина (текстовий блок) -->
-        <div class="youtube-right">
-            <h4>Дивіться огляди та кейси</h4>
-            <p>
-                На нашому каналі ви знайдете огляди обладнання,
-                демонстрацію виробничих процесів, технічні рішення
-                та приклади впровадження для різних галузей.
-            </p>
-            <p>
-                Підписуйтесь, щоб першими отримувати нові матеріали
-                та бути в курсі інновацій у промисловості.
-            </p>
-        </div>
-
-    </div>
-</div>
-
-    </div>
-</section>
-
-
-
-
-<!-- ================= FAQ ================= -->
-<section class="faq">
-    <div class="container">
-
-        <h2>Поширені запитання</h2>
-
-        <div class="faq-list">
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Як знайти найближчу філію?
-                </button>
-                <div class="faq-answer">
-                    Скористайтесь пошуком за містом у списку філій або
-                    зв’яжіться з нашим менеджером — ми підкажемо
-                    найближче представництво.
-                </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon">in</a>
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">▶</a>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Чи можна отримати консультацію онлайн?
-                </button>
-                <div class="faq-answer">
-                    Так, наші фахівці надають консультації телефоном,
-                    електронною поштою або через форму на сайті.
-                </div>
-            </div>
+            <div class="youtube-highlight">
+                <div class="youtube-grid">
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Який графік роботи філій?
-                </button>
-                <div class="faq-answer">
-                    Більшість філій працює з понеділка по п’ятницю
-                    з 09:00 до 18:00. Точний графік уточнюйте за телефоном
-                    відповідної філії.
-                </div>
-            </div>
+                    <!-- Ліва частина (акцент + кнопка) -->
+                    <div class="youtube-left">
+                        <h3>Наш YouTube канал</h3>
+                        <a href="#" class="youtube-btn">
+                            Перейти на YouTube →
+                        </a>
+                    </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Чи можна отримати продукцію самовивозом?
-                </button>
-                <div class="faq-answer">
-                    Так, самовивіз доступний у більшості філій.
-                    Деталі уточнюйте у менеджера.
-                </div>
-            </div>
+                    <!-- Права частина (текстовий блок) -->
+                    <div class="youtube-right">
+                        <h4>Дивіться огляди та кейси</h4>
+                        <p>
+                            На нашому каналі ви знайдете огляди обладнання,
+                            демонстрацію виробничих процесів, технічні рішення
+                            та приклади впровадження для різних галузей.
+                        </p>
+                        <p>
+                            Підписуйтесь, щоб першими отримувати нові матеріали
+                            та бути в курсі інновацій у промисловості.
+                        </p>
+                    </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Як зв’язатися з менеджером?
-                </button>
-                <div class="faq-answer">
-                    Ви можете зателефонувати за номером філії або
-                    залишити заявку через форму зворотного зв’язку.
                 </div>
             </div>
 
         </div>
-
-    </div>
-</section>
+    </section>
 
 
 
-<!-- ================= FOOTER — ПІДВАЛ САЙТУ (навігація, контакти, соцмережі) ================= -->
-<footer class="footer">
-    <div class="container footer-grid">
 
-        <!-- Колонка 1 -->
-        <div class="footer-col">
-            <div class="footer-logo">IRBIS</div>
-            <p class="footer-tagline">
-                Надійний постачальник для промисловості та агросектору
-            </p>
+    <!-- ================= FOOTER — ПІДВАЛ САЙТУ (навігація, контакти, соцмережі) ================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
 
-            <div class="footer-cert">
-                ISO 9001
+            <!-- Колонка 1 -->
+            <div class="footer-col">
+                <div class="footer-logo">IRBIS</div>
+                <p class="footer-tagline">
+                    Надійний постачальник для промисловості та агросектору
+                </p>
+
+                <div class="footer-cert">
+                    ISO 9001
+                </div>
             </div>
+
+            <!-- Колонка 2 -->
+            <div class="footer-col">
+                <h4>Компанія</h4>
+                <ul>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Бренди</a></li>
+                    <li><a href="#">Сервіс</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Акції</a></li>
+                </ul>
+            </div>
+
+            <!-- Колонка 3 -->
+            <div class="footer-col">
+                <h4>Продукція</h4>
+                <ul>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Продукція</a></li>
+                    <li><a href="#">Галузі</a></li>
+                    <li><a href="#">B2B Кабінет</a></li>
+                    <li><a href="#">Доставка і оплата</a></li>
+                </ul>
+            </div>
+
+            <!-- Колонка 4 -->
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <ul class="footer-contacts">
+                    <li>Мережа представництв</li>
+                    <li>+38 (050) 4-999-555</li>
+                    <li>+38 (057) 714-09-09</li>
+                    <li>mail@irbis.ua</li>
+                </ul>
+            </div>
+
+            <!-- Соцмережі -->
+            <div class="footer-social">
+                <a href="#">in</a>
+                <a href="#">f</a>
+                <a href="#">▶</a>
+            </div>
+
         </div>
 
-        <!-- Колонка 2 -->
-        <div class="footer-col">
-            <h4>Компанія</h4>
-            <ul>
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Бренди</a></li>
-                <li><a href="#">Сервіс</a></li>
-                <li><a href="#">Новини</a></li>
-                <li><a href="#">Акції</a></li>
-            </ul>
-        </div>
+        <div class="footer-bottom"></div>
+    </footer>
 
-        <!-- Колонка 3 -->
-        <div class="footer-col">
-            <h4>Продукція</h4>
-            <ul>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Продукція</a></li>
-                <li><a href="#">Галузі</a></li>
-                <li><a href="#">B2B Кабінет</a></li>
-                <li><a href="#">Доставка і оплата</a></li>
-            </ul>
-        </div>
+    <script>
+        const branches = [
 
-        <!-- Колонка 4 -->
-        <div class="footer-col">
-            <h4>Контакти</h4>
-            <ul class="footer-contacts">
-                <li>Мережа представництв</li>
-                <li>+38 (050) 4-999-555</li>
-                <li>+38 (057) 714-09-09</li>
-                <li>mail@irbis.ua</li>
-            </ul>
-        </div>
+            {
+                city: "Київ",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX", "+38 (0XX) XXX-XX-XX"]
+            },
 
-        <!-- Соцмережі -->
-        <div class="footer-social">
-            <a href="#">in</a>
-            <a href="#">f</a>
-            <a href="#">▶</a>
-        </div>
+            {
+                city: "Львів",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    </div>
+            {
+                city: "Одеса",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    <div class="footer-bottom"></div>
-</footer>
+            {
+                city: "Харків",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-<script>
-const branches = [
+            {
+                city: "Дніпро",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Київ",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX", "+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Запоріжжя",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Львів",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Вінниця",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Одеса",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Рівне",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Харків",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Тернопіль",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Дніпро",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Івано-Франківськ",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            },
 
-    {
-        city: "Запоріжжя",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            {
+                city: "Чернівці",
+                address: "вул. __________",
+                phones: ["+38 (0XX) XXX-XX-XX"]
+            }
 
-    {
-        city: "Вінниця",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+        ]
 
-    {
-        city: "Рівне",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+        const container = document.getElementById("branchesContainer")
 
-    {
-        city: "Тернопіль",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+        function renderBranches(list) {
+            container.innerHTML = ""
 
-    {
-        city: "Івано-Франківськ",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    },
+            list.forEach(branch => {
+                const phonesHTML = branch.phones.map(phone =>
+                    `<a href="tel:${phone.replace(/\s|\(|\)|-/g, '')}">${phone}</a>`
+                ).join("")
 
-    {
-        city: "Чернівці",
-        address: "вул. __________",
-        phones: ["+38 (0XX) XXX-XX-XX"]
-    }
-
-];
-
-const container = document.getElementById("branchesContainer");
-
-function renderBranches(list) {
-    container.innerHTML = "";
-
-    list.forEach(branch => {
-        const phonesHTML = branch.phones.map(phone =>
-            `<a href="tel:${phone.replace(/\s|\(|\)|-/g,'')}">${phone}</a>`
-        ).join("");
-
-        container.innerHTML += `
+                container.innerHTML += `
             <div class="branch-card">
                 <div class="branch-info">
                     <h3>Філія м. ${branch.city}</h3>
@@ -442,30 +371,30 @@ function renderBranches(list) {
                     <div class="qr-placeholder">QR</div>
                 </div>
             </div>
-        `;
-    });
-}
+        `
+            })
+        }
 
-renderBranches(branches);
+        renderBranches(branches)
 
-document.getElementById("branchSearch").addEventListener("input", function() {
-    const value = this.value.toLowerCase();
-    const filtered = branches.filter(b =>
-        b.city.toLowerCase().includes(value)
-    );
-    renderBranches(filtered);
-});
-</script>
+        document.getElementById("branchSearch").addEventListener("input", function () {
+            const value = this.value.toLowerCase()
+            const filtered = branches.filter(b =>
+                b.city.toLowerCase().includes(value)
+            )
+            renderBranches(filtered)
+        });
+    </script>
 
 
-<script>
-document.querySelectorAll(".faq-question").forEach(btn => {
-    btn.addEventListener("click", () => {
-        const item = btn.parentElement;
-        item.classList.toggle("active");
-    });
-});
-</script>
+    <script>
+        document.querySelectorAll(".faq-question").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const item = btn.parentElement
+                item.classList.toggle("active")
+            })
+        });
+    </script>
 
 
 
@@ -534,4 +463,5 @@ document.querySelectorAll(".faq-question").forEach(btn => {
 
 
 </body>
+
 </html>
