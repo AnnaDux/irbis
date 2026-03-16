@@ -1,299 +1,340 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Новини | ТД ІРБІС</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини | ТД ІРБІС</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ================= TOPBAR ================= -->
-<div class="topbar">
-    <div class="container topbar-inner">
-        <div class="topbar-left">
-            м. Київ | <a href="tel:+380000000000">+38 (000) 000 00 00</a>
-        </div>
-        <div class="topbar-right">
-            <a href="contacts.html" class="topbar-link">Контакти</a>
-            <a href="/b2b" class="b2b-btn">B2B кабінет</a>
-        </div>
-    </div>
-</div>
-
-<!-- ================= HEADER ================= -->
-<header class="header">
-    <div class="container nav">
-
-        <!-- ЛОГО (посилання на головну) -->
-        <a href="index.html" class="logo">IRBIS</a>
-
-        <!-- НАВІГАЦІЯ -->
-        <nav>
-            <ul>
-                <li><a href="services.html" class="active">Послуги</a></li>
-                <li><a href="manufacturing.html">Виробництво</a></li>
-                <li><a href="products.html">Продукція</a></li>
-                <li><a href="brands.html">Бренди</a></li>
-                <li><a href="industries.html">Галузі</a></li>
-                <li><a href="about_us.html">Про компанію</a></li>
-                <li><a href="news.html">Новини</a></li>
-                <li><a href="careers.html">Кар'єра</a></li>
-                <li class="nav-cta"><a href="catalog.html">Каталог</a></li>
-            </ul>
-        </nav>
-
-    </div>
-	
-</header>
-
-<!-- ================= BREADCRUMBS ================= -->
-<div class="breadcrumbs-wrapper">
-    <div class="container">
-        <nav class="breadcrumbs">
-            <a href="index.html">Головна</a>
-            <span>›</span>
-            <span class="crumb-current">Новини</span>
-        </nav>
-    </div>
-</div>
-
-
-
-<!-- ================= NEWS SECTION ================= -->
-<section class="news-section">
-    <div class="container">
-
-        <h1 class="news-list__title">Останні новини</h1>
-
-        <!-- ================= NEWS FILTER ================= -->
-        <div class="news-filter">
-
-            <button class="news-filter__btn active" data-filter="all">Усі новини</button>
-            <button class="news-filter__btn" data-filter="company">Новини компанії</button>
-            <button class="news-filter__btn" data-filter="tech">Світові технології</button>
-            <button class="news-filter__btn" data-filter="partners">Новини партнерів</button>
-            <button class="news-filter__btn" data-filter="promo">Акції</button>
-            <button class="news-filter__btn" data-filter="products">Новинки продукції</button>
-            <button class="news-filter__btn" data-filter="projects">Наші кейси</button>
-
-        </div>
-
-        <!-- ================= NEWS GRID ================= -->
-        <div class="news-grid">
-
-            <!-- Новина -->
-            <article class="news-card" data-category="company">
-                <div class="news-card__image">
-                    <img src="images/news1.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">12.01.2026</div>
-                    <h3 class="news-card__headline">Запуск нового виробництва</h3>
-                    <p class="news-card__description">
-                        Компанія розширила виробничі можливості...
-                    </p>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="tech">
-                <div class="news-card__image">
-                    <img src="images/news2.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">10.01.2026</div>
-                    <h3 class="news-card__headline">Нові технології автоматизації</h3>
-                    <p class="news-card__description">
-                        Огляд сучасних систем управління...
-                    </p>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="promo">
-                <div class="news-card__image">
-                    <img src="images/news3.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">08.01.2026</div>
-                    <h3 class="news-card__headline">Знижки на підшипники</h3>
-                    <p class="news-card__description">
-                        Спеціальні пропозиції для клієнтів...
-                    </p>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="promo">
-                <div class="news-card__image">
-                    <img src="images/news-agro-proposals.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">18.12.2025</div>
-                    <h3 class="news-card__headline">
-                        Спеціальні пропозиції до -25% на агробренди
-                    </h3>
-                    <p class="news-card__description">
-                        Спеціальні ціни на продукцію популярних брендів.
-                    </p>
-                    <a href="news/special-agro-proposals.html" class="btn btn-secondary">Детальніше</a>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="company">
-                <div class="news-card__image">
-                    <img src="images/news-press-ribbon.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">17.12.2025</div>
-                    <h3 class="news-card__headline">
-                        Новий прес для стикування стрічок
-                    </h3>
-                    <p class="news-card__description">
-                        Розширення виробничих можливостей IRBIS.
-                    </p>
-                    <a href="news/new-press-for-ribbons.html" class="btn btn-secondary">Детальніше</a>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="tech">
-                <div class="news-card__image">
-                    <img src="images/news-agricruiser.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">11.12.2025</div>
-                    <h3 class="news-card__headline">
-                        AgriCruiser — новий агробот
-                    </h3>
-                    <p class="news-card__description">
-                        Технологія для автоматизації сільського господарства.
-                    </p>
-                    <a href="news/agricruiser-news.html" class="btn btn-secondary">Детальніше</a>
-                </div>
-            </article>
-
-            <!-- Новина -->
-            <article class="news-card" data-category="partners">
-                <div class="news-card__image">
-                    <img src="images/news-reducer-sumitomo.jpg" alt="">
-                </div>
-                <div class="news-card__content">
-                    <div class="news-card__date">09.12.2025</div>
-                    <h3 class="news-card__headline">
-                        Редуктори Sumitomo Drive Technologies
-                    </h3>
-                    <p class="news-card__description">
-                        Огляд преміальних промислових рішень.
-                    </p>
-                    <a href="news/sumitomo-drive.html" class="btn btn-secondary">Детальніше</a>
-                </div>
-            </article>
-
-        </div>
-
-        <!-- ================= PAGINATION ================= -->
-        <div class="pagination">
-            <a href="#prev" class="pagination__link">&laquo; Попередні</a>
-            <a href="#1" class="pagination__link pagination__link--active">1</a>
-            <a href="#2" class="pagination__link">2</a>
-            <a href="#next" class="pagination__link">Наступні &raquo;</a>
-        </div>
-
-    </div>
-</section>
-
-<!-- ================= FOOTER — ПІДВАЛ САЙТУ (навігація, контакти, соцмережі) ================= -->
-<footer class="footer">
-    <div class="container footer-grid">
-
-        <!-- Колонка 1 -->
-        <div class="footer-col">
-            <div class="footer-logo">IRBIS</div>
-            <p class="footer-tagline">
-                Надійний постачальник для промисловості та агросектору
-            </p>
-
-            <div class="footer-cert">
-                ISO 9001
+    <!-- ================= TOPBAR ================= -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div class="topbar-left">
+                м. Київ | <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+            </div>
+            <div class="topbar-right">
+                <a href="contacts.html" class="topbar-link">Контакти</a>
+                <a href="/b2b" class="b2b-btn">B2B кабінет</a>
             </div>
         </div>
-
-        <!-- Колонка 2 -->
-        <div class="footer-col">
-            <h4>Компанія</h4>
-            <ul>
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Бренди</a></li>
-                <li><a href="#">Сервіс</a></li>
-                <li><a href="#">Новини</a></li>
-                <li><a href="#">Акції</a></li>
-            </ul>
-        </div>
-
-        <!-- Колонка 3 -->
-        <div class="footer-col">
-            <h4>Продукція</h4>
-            <ul>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Продукція</a></li>
-                <li><a href="#">Галузі</a></li>
-                <li><a href="#">B2B Кабінет</a></li>
-                <li><a href="#">Доставка і оплата</a></li>
-            </ul>
-        </div>
-
-        <!-- Колонка 4 -->
-        <div class="footer-col">
-            <h4>Контакти</h4>
-            <ul class="footer-contacts">
-                <li>Мережа представництв</li>
-                <li>+38 (050) 4-999-555</li>
-                <li>+38 (057) 714-09-09</li>
-                <li>mail@irbis.ua</li>
-            </ul>
-        </div>
-
-        <!-- Соцмережі -->
-        <div class="footer-social">
-            <a href="#">in</a>
-            <a href="#">f</a>
-            <a href="#">▶</a>
-        </div>
-
     </div>
 
-    <div class="footer-bottom"></div>
-</footer>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container nav">
 
-<script>
-const filterButtons = document.querySelectorAll(".news-filter__btn");
-const newsItems = document.querySelectorAll(".news-card");
+            <!-- ЛОГО (посилання на головну) -->
+            <a href="index.html" class="logo">IRBIS</a>
 
-filterButtons.forEach(button => {
-    button.addEventListener("click", () => {
+            <!-- НАВІГАЦІЯ -->
+            <nav>
+                <ul>
+                    <li><a href="services.html" class="active">Послуги</a></li>
+                    <li><a href="manufacturing.html">Виробництво</a></li>
+                    <li><a href="products.html">Продукція</a></li>
+                    <li><a href="brands.html">Бренди</a></li>
+                    <li><a href="industries.html">Галузі</a></li>
+                    <li><a href="about_us.html">Про компанію</a></li>
+                    <li><a href="news.html">Новини</a></li>
+                    <li><a href="careers.html">Кар'єра</a></li>
+                    <li class="nav-cta"><a href="catalog.html">Каталог</a></li>
+                </ul>
+            </nav>
 
-        // активна кнопка
-        filterButtons.forEach(btn => btn.classList.remove("active"));
-        button.classList.add("active");
+        </div>
 
-        const filter = button.dataset.filter;
+    </header>
 
-        newsItems.forEach(item => {
-            const category = item.dataset.category;
+    <!-- ================= BREADCRUMBS ================= -->
+    <div class="breadcrumbs-wrapper">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="index.html">Головна</a>
+                <span>›</span>
+                <span class="crumb-current">Новини</span>
+            </nav>
+        </div>
+    </div>
 
-            if (filter === "all" || category === filter) {
-                item.style.display = "flex";
-            } else {
-                item.style.display = "none";
-            }
+
+
+    <!-- ================= NEWS SECTION ================= -->
+    <section class="news-section">
+        <div class="container">
+
+            <h1 class="news-list__title">Останні новини</h1>
+
+            <!-- ================= NEWS FILTER ================= -->
+            <div class="news-filter">
+
+                <button class="news-filter__btn active" data-filter="all">Усі новини</button>
+                <button class="news-filter__btn" data-filter="company">Новини компанії</button>
+                <button class="news-filter__btn" data-filter="tech">Світові технології</button>
+                <button class="news-filter__btn" data-filter="partners">Новини партнерів</button>
+                <button class="news-filter__btn" data-filter="promo">Акції</button>
+                <button class="news-filter__btn" data-filter="products">Новинки продукції</button>
+                <button class="news-filter__btn" data-filter="projects">Наші кейси</button>
+
+            </div>
+
+            <!-- ================= NEWS GRID ================= -->
+            <div class="news-grid">
+
+                <!-- Новина -->
+                <article class="news-card" data-category="company">
+                    <div class="news-card__image">
+                        <img src="images/news1.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">12.01.2026</div>
+                        <h3 class="news-card__headline">Запуск нового виробництва</h3>
+                        <p class="news-card__description">
+                            Компанія розширила виробничі можливості...
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="tech">
+                    <div class="news-card__image">
+                        <img src="images/news2.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">10.01.2026</div>
+                        <h3 class="news-card__headline">Нові технології автоматизації</h3>
+                        <p class="news-card__description">
+                            Огляд сучасних систем управління...
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="promo">
+                    <div class="news-card__image">
+                        <img src="images/news3.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">08.01.2026</div>
+                        <h3 class="news-card__headline">Знижки на підшипники</h3>
+                        <p class="news-card__description">
+                            Спеціальні пропозиції для клієнтів...
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="promo">
+                    <div class="news-card__image">
+                        <img src="images/news-agro-proposals.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">18.12.2025</div>
+                        <h3 class="news-card__headline">
+                            Спеціальні пропозиції до -25% на агробренди
+                        </h3>
+                        <p class="news-card__description">
+                            Спеціальні ціни на продукцію популярних брендів.
+                        </p>
+                        <a href="news/special-agro-proposals.html" class="btn btn-secondary">Детальніше</a>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="company">
+                    <div class="news-card__image">
+                        <img src="images/news-press-ribbon.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">17.12.2025</div>
+                        <h3 class="news-card__headline">
+                            Новий прес для стикування стрічок
+                        </h3>
+                        <p class="news-card__description">
+                            Розширення виробничих можливостей IRBIS.
+                        </p>
+                        <a href="news/new-press-for-ribbons.html" class="btn btn-secondary">Детальніше</a>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="tech">
+                    <div class="news-card__image">
+                        <img src="images/news-agricruiser.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">11.12.2025</div>
+                        <h3 class="news-card__headline">
+                            AgriCruiser — новий агробот
+                        </h3>
+                        <p class="news-card__description">
+                            Технологія для автоматизації сільського господарства.
+                        </p>
+                        <a href="news/agricruiser-news.html" class="btn btn-secondary">Детальніше</a>
+                    </div>
+                </article>
+
+                <!-- Новина -->
+                <article class="news-card" data-category="partners">
+                    <div class="news-card__image">
+                        <img src="images/news-reducer-sumitomo.jpg" alt="">
+                    </div>
+                    <div class="news-card__content">
+                        <div class="news-card__date">09.12.2025</div>
+                        <h3 class="news-card__headline">
+                            Редуктори Sumitomo Drive Technologies
+                        </h3>
+                        <p class="news-card__description">
+                            Огляд преміальних промислових рішень.
+                        </p>
+                        <a href="news/sumitomo-drive.html" class="btn btn-secondary">Детальніше</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- ================= PAGINATION ================= -->
+            <div class="pagination">
+                <a href="#prev" class="pagination__link">&laquo; Попередні</a>
+                <a href="#1" class="pagination__link pagination__link--active">1</a>
+                <a href="#2" class="pagination__link">2</a>
+                <a href="#next" class="pagination__link">Наступні &raquo;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER — ОНОВЛЕНИЙ ПІДВАЛ САЙТУ ================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">IRBIS</div>
+                    <p class="footer-tagline">
+                        Надійний постачальник комплектуючих, рішень та сервісу для промисловості, агросектору й
+                        технічного обслуговування підприємств.
+                    </p>
+
+                    <div class="footer-badges">
+                        <span class="footer-badge">ISO 9001</span>
+                        <span class="footer-badge">B2B підтримка</span>
+                    </div>
+
+                    <a href="#" class="footer-primary-btn">Зв’язатися з нами</a>
+                </div>
+
+                <div class="footer-nav-wrap">
+                    <div class="footer-col">
+                        <h4>Компанія</h4>
+                        <ul>
+                            <li><a href="#">Про нас</a></li>
+                            <li><a href="#">Бренди</a></li>
+                            <li><a href="#">Сервіс</a></li>
+                            <li><a href="#">Новини</a></li>
+                            <li><a href="#">Акції</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Продукція</h4>
+                        <ul>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Продукція</a></li>
+                            <li><a href="#">Галузі</a></li>
+                            <li><a href="#">B2B Кабінет</a></li>
+                            <li><a href="#">Доставка і оплата</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Швидкі дії</h4>
+                        <ul>
+                            <li><a href="#">Підібрати продукцію</a></li>
+                            <li><a href="#">Замовити сервіс</a></li>
+                            <li><a href="#">Отримати консультацію</a></li>
+                            <li><a href="#">Стати партнером</a></li>
+                            <li><a href="#">Завантажити каталог</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-info">
+                    <div class="footer-contact-card">
+                        <h4>Контакти</h4>
+                        <ul class="footer-contacts">
+                            <li><span>Мережа представництв</span></li>
+                            <li><a href="tel:+380504999555">+38 (050) 4-999-555</a></li>
+                            <li><a href="tel:+380577140909">+38 (057) 714-09-09</a></li>
+                            <li><a href="mailto:mail@irbis.ua">mail@irbis.ua</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact-card">
+                        <h4>Графік роботи</h4>
+                        <div class="footer-schedule">
+                            <p>Пн–Пт: 09:00–18:00</p>
+                            <p>Сб–Нд: вихідний</p>
+                            <p>Відповідаємо на запити та заявки у робочий час</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-social-wrap">
+                        <h4>Соцмережі</h4>
+                        <div class="footer-social">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="YouTube">▶</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>© 2026 IRBIS. Усі права захищені.</p>
+                </div>
+
+                <div class="footer-bottom-links">
+                    <a href="#">Політика конфіденційності</a>
+                    <a href="#">Умови використання</a>
+                    <a href="#">Карта сайту</a>
+                </div>
+
+                <a href="#top" class="footer-top-btn" aria-label="Вгору">↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const filterButtons = document.querySelectorAll(".news-filter__btn")
+        const newsItems = document.querySelectorAll(".news-card")
+
+        filterButtons.forEach(button => {
+            button.addEventListener("click", () => {
+
+                // активна кнопка
+                filterButtons.forEach(btn => btn.classList.remove("active"))
+                button.classList.add("active")
+
+                const filter = button.dataset.filter
+
+                newsItems.forEach(item => {
+                    const category = item.dataset.category
+
+                    if (filter === "all" || category === filter) {
+                        item.style.display = "flex"
+                    } else {
+                        item.style.display = "none"
+                    }
+                })
+
+            })
         });
-
-    });
-});
-</script>
+    </script>
 
 </body>
+
 </html>
