@@ -24,7 +24,7 @@ body {
 }
 
 section {
-    padding: 40px 0 10px 0;
+    padding: 40px 20px 10px 0;
 }
 
 h2 {
@@ -4071,7 +4071,7 @@ font-size:22px;
 .hero-industrial {
   position: relative;
   overflow: hidden;
-  padding: 64px 0 52px;
+  padding: 40px 0 52px;
   background: linear-gradient(180deg, #eef3f8 0%, #f8fafc 100%);
 }
 
@@ -4125,12 +4125,12 @@ font-size:22px;
   color: #44516a;
 }
 
-.hero-industrial__features {
+/* .hero-industrial__features {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px 20px;
   margin-bottom: 24px;
-}
+} */
 
 .hero-industrial__feature {
   position: relative;
@@ -4138,6 +4138,7 @@ font-size:22px;
   font-size: 17px;
   line-height: 1.5;
   color: #22314f;
+   margin-bottom: 24px;
 }
 
 .hero-industrial__feature::before {
@@ -5196,7 +5197,7 @@ font-size:22px;
 /* ================= ABOUT SEO BLOCK ================= */
 
 .about-home {
-    padding: 80px 0;
+    padding: 40px 0;
     background: #fafafa;
 }
 
